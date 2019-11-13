@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
-	<title>CronoTime</title>
+	<title>---CronoTime</title>
 	<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
 	<link rel="icon" href="{{url('/')}}/img/icon.ico" type="image/x-icon"/>
 
@@ -126,7 +126,7 @@
 							<div class="collapse" id="base">
 								<ul class="nav nav-collapse">
 									<li>
-										<a href="listarProdutos.html">
+                                                                            <a href="{{url('/')}}/produto">
 											<span class="sub-item">Listar</span>
 										</a>
 									</li>
@@ -208,14 +208,9 @@
 			</div>
 		</div>
                 
-                <div class="main-panel">
-			<div class="content">
-                            <div class="page-inner">
-                                                              
-                                
-                            </div>
-                        </div>
-                </div>
+                <!-- Conteúdo -->
+                
+                @yield('conteudo')
                 
 		<!-- End Sidebar -->
                 <div>
